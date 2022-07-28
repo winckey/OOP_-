@@ -11,16 +11,8 @@ public class Theater {
     }
 
 
-    public void enter(Audience audience){
-        if(audience.getBag().hasInvitation()){
-            Ticket ticket = ticketSeller.getTicketOffice().getTicket();
-            audience.getBag().setTicket(ticket);
-        }
-        else {
-            Ticket ticket = ticketSeller.getTicketOffice().getTicket();
-            audience.getBag().minusAmount(ticket.getFee());
-            ticketSeller.getTicketOffice().addAmount(ticket.getFee());
-            audience.getBag().setTicket(ticket);
-        }
+    public void enter(Audience audience){ // 1. 극장함수의 동작으로 관객과 office의 값이 변경된다
+                                          // 2. 판매방식의 변경이 일어 날시 극장또한 변경이 일어남 -> 의존성이 강함
+        ticketSeller.sellTo(audience);
     }
 }
