@@ -15,6 +15,8 @@ public class TicketSeller {
         // 2. 판매방식의 변경이 일어 날시 극장또한 변경이 일어남 -> 의존성이 강함
         // enter -> seller 로 옮김으로 theater가 office의 존재를 알수 없음
             ticketOffice.addAmount(   audience.buy(ticketOffice.getTicket()));
+
+            // 의존성의 분리는 또다른 의존성을 만들수 있다 우리는 여기에대해 트레이드 오프를 항상 고려해야한다.!
     }
 
 
