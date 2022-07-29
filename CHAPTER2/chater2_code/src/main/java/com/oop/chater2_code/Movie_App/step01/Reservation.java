@@ -14,4 +14,14 @@ public class Reservation {
         this.fee = fee;
         this.audienceCount = audienceCount;
     }
+
+    @Override
+    public String toString() {
+        return "Reservation{" +
+                "customer=" + customer +
+                ", Screening=" + Screening +
+                ", fee=" + fee.getAmount() +
+                ", audienceCount=" + audienceCount +
+                '}';
+    }
 }

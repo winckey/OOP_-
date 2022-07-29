@@ -1,7 +1,10 @@
 package com.oop.chater2_code.Movie_App.money;
 
+import lombok.Getter;
+
 import java.math.BigDecimal;
 
+@Getter
 public class Money {
     public static final Money ZERO = Money.wons(0);
 
