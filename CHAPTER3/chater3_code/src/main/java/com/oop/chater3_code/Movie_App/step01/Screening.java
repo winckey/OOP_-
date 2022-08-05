@@ -2,9 +2,11 @@ package com.oop.chater3_code.Movie_App.step01;
 
 
 import com.oop.chater3_code.Movie_App.money.Money;
+import lombok.Getter;
 
 import java.time.LocalDateTime;
 
+@Getter
 public class Screening {
     private Movie movie;
     private int sequence;
@@ -16,7 +18,8 @@ public class Screening {
         this.whenScreened = whenScreened;
     }
 
-    public LocalDateTime getStartTime() {
+
+    public LocalDateTime getStartTime() {// 이부분도 바뀐다?? 그건 잘모르겠다.PeriodCondition 27줄
         return whenScreened;
     }
 
@@ -33,7 +36,7 @@ public class Screening {
                 audienceCount);
     }
 
-    private Money calculateFee(int audienceCount) {
+    Money calculateFee(int audienceCount) {
         return movie.calculateMovieFee(this).times(audienceCount);
     }
 }

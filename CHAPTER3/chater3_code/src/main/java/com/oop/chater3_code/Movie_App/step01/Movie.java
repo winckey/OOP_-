@@ -4,9 +4,11 @@ package com.oop.chater3_code.Movie_App.step01;
 
 import com.oop.chater3_code.Movie_App.money.Money;
 import com.oop.chater3_code.Movie_App.step01.pricing.DiscountPolicy;
+import lombok.Getter;
 
 import java.time.Duration;
 
+@Getter
 public class Movie {
     private String title;
     private Duration runningTime;

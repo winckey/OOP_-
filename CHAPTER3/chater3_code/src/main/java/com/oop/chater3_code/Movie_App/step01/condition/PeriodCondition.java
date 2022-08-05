@@ -19,7 +19,7 @@ public class PeriodCondition implements DiscountCondition {
     }
 
     public boolean isSatisfiedBy(Screening screening) {
-        return screening.getStartTime().getDayOfWeek().equals(dayOfWeek) &&
+        return screening.getStartTime().getDayOfWeek().equals(dayOfWeek) &&// 이부분도 문제가 있을수 있다. 메세지로 제공하자
                 startTime.compareTo(screening.getStartTime().toLocalTime()) <= 0 &&
                 endTime.compareTo(screening.getStartTime().toLocalTime()) >= 0;
     }
