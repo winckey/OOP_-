@@ -1,17 +1,23 @@
 package com.oop.market2;
 
 
+import lombok.Getter;
+import lombok.Setter;
 
+@Getter
+@Setter
 public class Market{
 
 
     private Storage storage;
 
+    public Market(Storage storage) {
+        this.storage = storage;
+    }
+
     public void purchase(Order order){
 
-        storage.purchase(order);
-
-
+        System.out.println(storage.purchase(order));
 
     }
 
@@ -20,6 +26,10 @@ public class Market{
     }
     public void searchList(){
         storage.printItemList();
+    }
+
+    public void addItem(Item item){
+        storage.add(item);
     }
 
 }
