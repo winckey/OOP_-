@@ -20,4 +20,11 @@ public class Payment {// <<--- 인터페이스나 상속하는것이 좋을듯 �
     public void setName(String name) {
         this.name = name;
     }
+
+
+
+    public boolean find(Payment name) {
+        name.getName();
+        return true;
+    }
 }

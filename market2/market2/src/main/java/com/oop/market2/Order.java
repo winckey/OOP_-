@@ -26,6 +26,10 @@ public class Order {
     public Payment getPayment() {
         return payment;
     }
+
+    public boolean fun(Payment payment) {
+
+    }
 }
 
 

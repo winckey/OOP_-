@@ -24,6 +24,8 @@ public class Market{
     public void search(int id){
         storage.printItemToNum(id);
     }
+
+
     public void searchList(){
         storage.printItemList();
     }

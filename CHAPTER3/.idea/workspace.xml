@@ -3,13 +3,13 @@
   <component name="ChangeListManager">
     <list default="true" id="1c3149f1-5493-4215-a008-a948cce18425" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../market2/market2/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../market2/market2/build.gradle" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../market2/market2/src/main/java/com/oop/market2/Item.java" beforeDir="false" afterPath="$PROJECT_DIR$/../market2/market2/src/main/java/com/oop/market2/Item.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../market2/market2/src/main/java/com/oop/market2/Market.java" beforeDir="false" afterPath="$PROJECT_DIR$/../market2/market2/src/main/java/com/oop/market2/Market.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../market2/market2/src/main/java/com/oop/market2/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/../market2/market2/src/main/java/com/oop/market2/Order.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../market2/market2/src/main/java/com/oop/market2/Payment.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../market2/market2/src/main/java/com/oop/market2/Storage.java" beforeDir="false" afterPath="$PROJECT_DIR$/../market2/market2/src/main/java/com/oop/market2/Storage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../market2/market2/src/test/java/com/oop/market2/Market2ApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/../market2/market2/src/test/java/com/oop/market2/Market2ApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../market2/market2/src/main/java/com/oop/market2/Payment.java" beforeDir="false" afterPath="$PROJECT_DIR$/../market2/market2/src/main/java/com/oop/market2/Payment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../market2/market2/src/main/java/com/oop/market2/condition/CardCondition.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../market2/market2/src/main/java/com/oop/market2/condition/DiscountCondition.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../market2/market2/src/main/java/com/oop/market2/condition/NoneCondition.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

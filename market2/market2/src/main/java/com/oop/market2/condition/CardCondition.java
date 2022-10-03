@@ -18,8 +18,13 @@ public class CardCondition implements DiscountCondition {
 
     @Override
     public int calculateFee(Order order , int price) {
+//
+//        if(order.fun(payment))
+//        {
+//            return (int) (price-(price*rate/100));
+//        }
 
-        if(order.getPayment().getName() == payment.getName())
+        if(payment.find( order.getPayment() )) // == 뺀다 //
         {
             return (int) (price-(price*rate/100));
         }
